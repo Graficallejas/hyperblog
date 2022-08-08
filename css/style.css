@@ -21,10 +21,23 @@ body {
 .cabecera{
     background-color: rgb(39, 61, 100);
     color: white;
-    padding: 0 5em;
+    padding: 20px;
     margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.cabecera span{
+    font-size: 20px;
     font-weight: bold;
-    box-shadow: 0px 11px 28px 5px rgba(0,0,0,0.75);
+    margin-right: 20px;
 }
 
 .post {
